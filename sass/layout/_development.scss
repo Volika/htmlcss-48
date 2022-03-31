@@ -1,0 +1,32 @@
+.section--no-padding {
+  display: none;
+
+  @include media($desk) {
+    display: contents;
+    padding-top: 0;
+  }
+}
+
+.development-list {
+  display: flex;
+  margin-left: -30px;
+}
+.development-list__item {
+  position: relative;
+  width: calc(100% / 3 - 30px);
+  margin-left: 30px;
+}
+.development__box {
+  position: absolute;
+  @extend %align-list;
+  justify-content: center;
+  width: 100%;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  bottom: 0px;
+}
+.development__text {
+  @include font(700, 14px, 16px, 0.03em);
+  text-transform: uppercase;
+  color: #ffffff;
+}

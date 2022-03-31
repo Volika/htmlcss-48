@@ -1,0 +1,12 @@
+.section-title {
+  text-align: center;
+  color: var(--title-text-color);
+  margin-bottom: 30px;
+  @include media($mob) {
+    @include font(700, 28px, 33px, 0.03em);
+  }
+  @include media($desk) {
+    margin-bottom: 50px;
+    @include font(null, 36px, 42px, 0.03em);
+  }
+}

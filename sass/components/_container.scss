@@ -1,0 +1,18 @@
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+
+  // outline: 1px solid red;
+
+  @include media($mob) {
+    width: $mob;
+  }
+  @include media($tab) {
+    width: $tab;
+  }
+  @include media($desk) {
+    width: $desk;
+  }
+}

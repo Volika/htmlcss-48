@@ -1,0 +1,63 @@
+.advantage-list {
+  max-width: $mob;
+  margin-bottom: -30px;
+  @include media($tab) {
+    max-width: $tab;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+  }
+  @include media($desk) {
+    max-width: $desk;
+  }
+
+  // display: flex;
+  // justify-content: space-between;
+  // &__item + &__item {
+  //   margin-left: 30px;
+  // }
+}
+
+.advantage-list__item {
+  margin-bottom: 30px;
+  @include media($tab) {
+    width: calc(100% / 2 - 30px);
+    margin-left: 30px;
+  }
+
+  @include media($desk) {
+    width: calc(100% / 4 - 30px);
+  }
+}
+.advantage-list__box {
+  display: flex;
+  height: 120px;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+  background: var(--light-backg-color);
+  border-radius: 4px;
+}
+.advantage-list__title {
+  @include font(700, 14px, 16px, 0.03em);
+
+  text-transform: uppercase;
+  color: var(--title-text-color);
+  margin-bottom: 10px;
+  text-align: center;
+  @include media($tab) {
+    text-align: start;
+  }
+}
+
+.advantage-list__text {
+  @include font(null, 14px, 24px, 0.03em);
+  max-width: 450px;
+  @include media($tab) {
+    max-width: 354px;
+  }
+
+  @include media($desk) {
+    max-width: 270px;
+  }
+}
