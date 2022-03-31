@@ -565,6 +565,27 @@ ul {
   margin-right: auto;
 }
 
+.btn-2 {
+  font-family: inherit;
+  cursor: pointer;
+  width: 160px;
+  height: 44px;
+  border-radius: 22px;
+  background-color: #FFFFFF;
+  color: #D41443;
+  align-items: center;
+  border: transparent;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+}
+
+.btn-2:hover, .btn-2:focus {
+  background-color: #188ce8;
+}
+
 .advantage-list {
   max-width: 480px;
   margin-bottom: -30px;

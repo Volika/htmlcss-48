@@ -84,3 +84,6 @@
 .btn__hero {
   @include indents(10px, 32px, auto, auto);
 }
+.btn-2 {
+  @include btn-style(160px, 44px,22px, #D41443, #FFFFFF, );
+}

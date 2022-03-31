@@ -1,3 +1,25 @@
+@mixin btn-style($wi, $hi, $br, $col, $bgc) {
+  font-family: inherit;
+  cursor: pointer;
+  width: $wi;
+  height: $hi;
+ border-radius: $br;
+  background-color: $bgc;
+    color: $col;
+ align-items: center;
+border: transparent;
+ text-align: center;
+
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
+
+ @include font(700, 16px, 30px, 0.06em);
+
+ 
+}
+
 .btn {
   font-family: inherit;
   cursor: pointer;
@@ -17,6 +39,7 @@
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
   &:hover,
   &:focus {
     background-color: #188ce8;
