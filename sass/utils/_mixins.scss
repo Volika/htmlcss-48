@@ -11,6 +11,19 @@
   margin-right: $mr;
 }
 
+@mixin btn-style($wi, $hi, $br, $col, $bgc, $bgc2) {
+ width: $wi;
+  height: $hi;
+  border-radius: $br;
+  background-color: $bgc;
+  color: $col;
+  
+   &:hover,
+  &:focus {
+    background-color: $bgc2;
+  }
+}
+
 @mixin media($size) {
   @media screen and (min-width: $size) {
     @content;

@@ -81,9 +81,19 @@
     @include font(900, 44px, 60px, 0.06em);
   }
 }
+.btn0{
+  font-family: inherit;
+  cursor: pointer;
+  border: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 .btn__hero {
-  @include indents(10px, 32px, auto, auto);
+@include btn-style(159px, 44px,22px, #D41443, #FFFFFF, #ECEBEB);
+
+  @include font(700, 16px, 21px, null);
+  @include indents(0, 0, auto, auto);
 }
-.btn-2 {
-  @include btn-style(160px, 44px,22px, #D41443, #FFFFFF, );
-}
+  

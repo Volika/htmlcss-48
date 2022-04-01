@@ -559,31 +559,32 @@ ul {
   }
 }
 
-.btn__hero {
-  padding: 10px 32px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.btn-2 {
+.btn0 {
   font-family: inherit;
   cursor: pointer;
-  width: 160px;
+  border: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn__hero {
+  width: 159px;
   height: 44px;
   border-radius: 22px;
   background-color: #FFFFFF;
   color: #D41443;
-  align-items: center;
-  border: transparent;
-  text-align: center;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.875;
-  letter-spacing: 0.06em;
+  line-height: 1.3125;
+  padding: 0 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.btn-2:hover, .btn-2:focus {
-  background-color: #188ce8;
+.btn__hero:hover, .btn__hero:focus {
+  background-color: #ECEBEB;
 }
 
 .advantage-list {
