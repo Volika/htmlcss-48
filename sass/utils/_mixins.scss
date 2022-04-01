@@ -12,18 +12,32 @@
 }
 
 @mixin btn-style($wi, $hi, $br, $col, $bgc, $bgc2) {
- width: $wi;
+//  width: $wi;
+//   height: $hi;
+//   border-radius: $br;
+@include btn-form($wi, $hi, $br);
+@include btn-color($col, $bgc, $bgc2);
+  // background-color: $bgc;
+  // color: $col;
+  // &:hover,
+  // &:focus {
+  //   background-color: $bgc2;
+  // }
+}
+@mixin btn-form($wi, $hi, $br) {
+  width: $wi;
   height: $hi;
   border-radius: $br;
+}
+
+@mixin btn-color($col, $bgc, $bgc2) {
   background-color: $bgc;
   color: $col;
-  
-   &:hover,
+  &:hover,
   &:focus {
     background-color: $bgc2;
   }
 }
-
 @mixin media($size) {
   @media screen and (min-width: $size) {
     @content;

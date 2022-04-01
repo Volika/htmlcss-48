@@ -81,19 +81,33 @@
     @include font(900, 44px, 60px, 0.06em);
   }
 }
-.btn {
-  font-family: inherit;
-  cursor: pointer;
-  border: transparent;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-.btn__hero {
-@include btn-style(159px, 44px,22px, #D41443, #FFFFFF, #ECEBEB);
-
-  @include font(700, 16px, 21px, null);
-  @include indents(0, 0, auto, auto);
-}
+  .btn__heder {
+    @include indents(0, 0, auto, 0px);
+    @include btn-form(159px, 44px, 22px);
+    @include btn-color(#D41443, #FFFFFF, #ECEBEB);
+    @include font(700, 16px, 21px, null);
   
+  }
+ .btn_hero {
+  @include indents(0, 0, 0px, auto);
+  @include btn-form (159px, 44px, 22px);
+  @include btn-color(#D41443,  #FFFFFF,  #ECEBEB);
+  @include font(700, 16px, 21px, null);
+ 
+ }
+ .btn__modal {
+    //  modal mobil
+    @include btn-form(209px, 44px, 22px);
+    @include btn-color(#D41443, #FFFFFF, #ECEBEB);
+    @include font(700, 16px, 21px, null);
+    @include indents(0, 0, auto, auto);
+  
+    // modal tablet
+    @include media ($tab) {
+      @include btn-form(186px, 44px, 22px);
+    }
+    // modal desktop
+    @include media ($desk) {
+      display: none;
+    }
+  }
