@@ -1,21 +1,12 @@
-// * {
-// $mob: 480px;
-// $tab: 768px;
-// $desk: 1200px;
-// }
-@mixin media($size) {
-    @media screen and (min-width: $size) {
-        @content;
-    }
-}
-
 .container-contacts {
+    margin: 0 auto;
+    ;
     height: 1500px;
-    border: 1px solid #cf3b3b;
     background-image: linear-gradient(#E5E5E5 25%, #FFF5F6 25%);
 
     padding: 48px 20px;
-    margin: 0 auto;
+
+    justify-content: center;
 
     @include media (480px) {
         width: 480px;
@@ -36,4 +27,40 @@
     }
 }
 
-.contacts {}
+.contacts {
+    margin-bottom: 32px;
+
+}
+
+.contacts__item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.contacts__item {
+    margin: 0 auto;
+    width: 280px;
+    height: 412px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    padding: 40px 32px;
+}
+
+.contacts__card {
+    position: relative;
+    border: 1px, solid, red;
+}
+
+.contacts__name {
+    width: 80px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'DM Sans';
+    @include btn-form(80px, 16px, 4px);
+    @include font(500, 12px, 22px, 0.04em);
+    @include btn-color(#FFFFFF, #F0D1A5, #F0D1A5);
+
+}
