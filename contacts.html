@@ -1,147 +1,392 @@
-<!-- Contacts -->
-<section class="section-contacts">
-  <div class="container">
-    <h2 class="section__title visually-hidden">Our contacts</h2>
-    <div class="contacts">
-      <ul class="catering__list">
-        <li class="catering__item">
-          <div class="cater-card">
-            <p class="catering__name catering__name_beige">CAFE</p>
-            <div class="cater-card__list">
-              <div class="cater-place">
-                <p class="cater-place__name">Chicago</p>
-                <p class="cater-place__text">
-                  Fusce ut velit laoreet, tempus arcu molestie vulputate
-                </p>
-              </div>
-              <div class="cater-time">
-                <ul class="cater-time__list">
-                  <li class="cater-time__item">
-                    <p class="cater-time__name">Monday - Friday</p>
-                    <p class="cater-time__time">06:00 AM - 10:00 PM</p>
-                  </li>
-                  <li class="cater-time__item">
-                    <p class="cater-time__name">Saturday - Sunday</p>
-                    <p class="cater-time__time">08:00 AM - 10:00 PM</p>
-                  </li>
-                </ul>
-              </div>
-              <ul class="cater-cont">
-                <li class="cater-cont__item">
-                  <a
-                    href="tel:+610383766284"
-                    class="cater-cont__link cater-cont__link__tel"
-                    >+61&#40;0&#41; 383 766 284</a
-                  >
-                </li>
-                <li class="cater-cont__item">
-                  <a
-                    href="mailto:noreply@envato.com"
-                    class="cater-cont__link cater-cont__link__mail"
-                    >noreply@envato.com</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </li>
-        <li class="catering__item">
-          <div class="cater-card">
-            <p class="catering__name catering__name_green">FOODTRUCK</p>
-            <div class="cater-card__list">
-              <div class="cater-place">
-                <p class="cater-place__name">Los Angeles</p>
-                <p class="cater-place__text">
-                  Fusce ut velit laoreet, tempus arcu molestie vulputate
-                </p>
-              </div>
-              <div class="cater-time">
-                <ul class="cater-time__list">
-                  <li class="cater-time__item">
-                    <p class="cater-time__name">Monday - Friday</p>
-                    <p class="cater-time__time">06:00 AM - 10:00 PM</p>
-                  </li>
-                  <li class="cater-time__item">
-                    <p class="cater-time__name">Saturday - Sunday</p>
-                    <p class="cater-time__time">08:00 AM - 10:00 PM</p>
-                  </li>
-                </ul>
-              </div>
-              <ul class="cater-cont">
-                <li class="cater-cont__item">
-                  <a
-                    href="tel:+610383766284"
-                    class="cater-cont__link cater-cont__link__tel"
-                    >+61&#40;0&#41; 383 766 284</a
-                  >
-                </li>
-                <li class="cater-cont__item">
-                  <a
-                    href="mailto:noreply@envato.com"
-                    class="cater-cont__link cater-cont__link__mail"
-                    >noreply@envato.com</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </li>
-        <li class="catering__item">
-          <div class="cater-card">
-            <p class="catering__name catering__name_beige">CAFE</p>
-            <div class="cater-card__list">
-              <div class="cater-place">
-                <p class="cater-place__name">New York</p>
-                <p class="cater-place__text">
-                  Fusce ut velit laoreet, tempus arcu molestie vulputate
-                </p>
-              </div>
-              <div class="cater-time">
-                <ul class="cater-time__list">
-                  <li class="cater-time__item">
-                    <p class="cater-time__name">Monday - Friday</p>
-                    <p class="cater-time__time">06:00 AM - 10:00 PM</p>
-                  </li>
-                  <li class="cater-time__item">
-                    <p class="cater-time__name">Saturday - Sunday</p>
-                    <p class="cater-time__time">08:00 AM - 10:00 PM</p>
-                  </li>
-                </ul>
-              </div>
-              <ul class="cater-cont">
-                <li class="cater-cont__item">
-                  <a
-                    href="tel:+610383766284"
-                    class="cater-cont__link cater-cont__link__tel"
-                    >+61&#40;0&#41; 383 766 284</a
-                  >
-                </li>
-                <li class="cater-cont__item">
-                  <a
-                    href="mailto:noreply@envato.com"
-                    class="cater-cont__link cater-cont__link__mail"
-                    >noreply@envato.com</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </li>
-      </ul>
-      <div class="cater-btn">
-        <button type="button" class="btn cater-btn__locat" data-modal-map-open>
-          Our Locations
-          <svg class="cater-btn__icons" width="8" height="16">
-            <use href="./images/icons/icons.svg#icon-btn-vector-white"></use>
-          </svg>
-        </button>
-        <button type="button" class="btn cater-btn__franch">
-          Franchise
-          <svg class="cater-btn__icons" width="8" height="16">
-            <use href="./images/icons/icons.svg#icon-btn-vector-red"></use>
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container container__header">
+        <a href="./index.html" class="logo" lang="en"
+          >Web<span class="logo__dark">Studio</span></a
+        >
+
+        <nav>
+          <ul class="site-nav">
+            <li class="site-nav__item">
+              <a href="./index.html" class="site-nav__link">Студия</a>
+            </li>
+            <li class="site-nav__item">
+              <a href="./portfolio.html" class="site-nav__link">Портфолио</a>
+            </li>
+            <li class="site-nav__item">
+              <a
+                href="./contacts.html"
+                class="site-nav__link site-nav__link--current"
+                >Контакты</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <ul class="connect">
+          <li class="connect__item">
+            <a href="mailto:info@devstudio.com" class="connect__link">
+              <svg class="connect__icon connect__icon--env">
+                <use href="./images/symbol-defs.svg#envelope"></use></svg
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="connect__item">
+            <a href="tel:+380961111111" class="connect__link">
+              <svg class="connect__icon connect__icon--smart">
+                <use href="./images/symbol-defs.svg#smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
+          </li>
+        </ul>
+
+        <button type="button" class="menu-open-btn">
+          <svg
+            class="menu-btn__icon"
+            width="40"
+            height="40"
+            aria-label="Включеник мобильного меню"
+          >
+            <use
+              class="menu-btn__icon--menu"
+              href="./images/symbol-defs.svg#menu_40px"
+            ></use>
           </svg>
         </button>
       </div>
-    </div>
-  </div>
-</section>
+
+      <div class="mob-menu is-hidden">
+        <div class="container mob-menu-container">
+          <div class="mob-menu-top">
+            <button type="button" class="menu-close-btn">
+              <svg
+                class="menu-btn__icon"
+                width="40"
+                height="40"
+                aria-label="Выключение мобильного меню"
+              >
+                <use
+                  class="menu-btn__icon--close"
+                  href="./images/symbol-defs.svg#close_40px"
+                ></use>
+              </svg>
+            </button>
+            <ul class="mob-menu-list list">
+              <li class="mob-menu__item">
+                <a href="./index.html" class="mob-menu__link">Студия</a>
+              </li>
+              <li class="mob-menu__item">
+                <a
+                  href="./portfolio.html"
+                  class="mob-menu__link mob-menu__link--current"
+                  >Портфолио</a
+                >
+              </li>
+              <li class="mob-menu__item">
+                <a href="" class="mob-menu__link">Контакты</a>
+              </li>
+            </ul>
+          </div>
+          <div class="mob-menu-bottom">
+            <ul class="mob-contact">
+              <li class="mob-contact__item">
+                <a href="tel:+380961111111" class="mob-contact__tel"
+                  >+38 096 111 11 11
+                </a>
+              </li>
+              <li class="mob-contact__item">
+                <a href="mailto:info@devstudio.com" class="mob-contact__mail">
+                  info@devstudio.com
+                </a>
+              </li>
+            </ul>
+            <ul class="mob-soc">
+              <li class="mob-soc__item">
+                <a href="" class="mob-soc__link"> Instagram </a>
+              </li>
+              <li class="mob-soc__item">
+                <a href="" class="mob-soc__link"> Twitter </a>
+              </li>
+              <li class="mob-soc__item">
+                <a href="" class="mob-soc__link"> Facebook </a>
+              </li>
+              <li class="mob-soc__item">
+                <a href="" class="mob-soc__link"> LinkedIn </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- main  -->
+    <main>
+      <!-- Contacts -->
+      <section class="section-contacts">
+        <div class="container">
+          <h2 class="section__title visually-hidden">Our contacts</h2>
+          <div class="contacts">
+            <ul class="catering__list">
+              <li class="catering__item">
+                <div class="cater-card">
+                  <p class="catering__name catering__name_beige">CAFE</p>
+                  <div class="cater-card__list">
+                    <div class="cater-place">
+                      <p class="cater-place__name">Chicago</p>
+                      <p class="cater-place__text">
+                        Fusce ut velit laoreet, tempus arcu molestie vulputate
+                      </p>
+                    </div>
+                    <div class="cater-time">
+                      <ul class="cater-time__list">
+                        <li class="cater-time__item">
+                          <p class="cater-time__name">Monday - Friday</p>
+                          <p class="cater-time__time">06:00 AM - 10:00 PM</p>
+                        </li>
+                        <li class="cater-time__item">
+                          <p class="cater-time__name">Saturday - Sunday</p>
+                          <p class="cater-time__time">08:00 AM - 10:00 PM</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <ul class="cater-cont">
+                      <li class="cater-cont__item">
+                        <a
+                          href="tel:+610383766284"
+                          class="cater-cont__link cater-cont__link__tel"
+                          >+61&#40;0&#41; 383 766 284</a
+                        >
+                      </li>
+                      <li class="cater-cont__item">
+                        <a
+                          href="mailto:noreply@envato.com"
+                          class="cater-cont__link cater-cont__link__mail"
+                          >noreply@envato.com</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="catering__item">
+                <div class="cater-card">
+                  <p class="catering__name catering__name_green">FOODTRUCK</p>
+                  <div class="cater-card__list">
+                    <div class="cater-place">
+                      <p class="cater-place__name">Los Angeles</p>
+                      <p class="cater-place__text">
+                        Fusce ut velit laoreet, tempus arcu molestie vulputate
+                      </p>
+                    </div>
+                    <div class="cater-time">
+                      <ul class="cater-time__list">
+                        <li class="cater-time__item">
+                          <p class="cater-time__name">Monday - Friday</p>
+                          <p class="cater-time__time">06:00 AM - 10:00 PM</p>
+                        </li>
+                        <li class="cater-time__item">
+                          <p class="cater-time__name">Saturday - Sunday</p>
+                          <p class="cater-time__time">08:00 AM - 10:00 PM</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <ul class="cater-cont">
+                      <li class="cater-cont__item">
+                        <a
+                          href="tel:+610383766284"
+                          class="cater-cont__link cater-cont__link__tel"
+                          >+61&#40;0&#41; 383 766 284</a
+                        >
+                      </li>
+                      <li class="cater-cont__item">
+                        <a
+                          href="mailto:noreply@envato.com"
+                          class="cater-cont__link cater-cont__link__mail"
+                          >noreply@envato.com</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="catering__item">
+                <div class="cater-card">
+                  <p class="catering__name catering__name_beige">CAFE</p>
+                  <div class="cater-card__list">
+                    <div class="cater-place">
+                      <p class="cater-place__name">New York</p>
+                      <p class="cater-place__text">
+                        Fusce ut velit laoreet, tempus arcu molestie vulputate
+                      </p>
+                    </div>
+                    <div class="cater-time">
+                      <ul class="cater-time__list">
+                        <li class="cater-time__item">
+                          <p class="cater-time__name">Monday - Friday</p>
+                          <p class="cater-time__time">06:00 AM - 10:00 PM</p>
+                        </li>
+                        <li class="cater-time__item">
+                          <p class="cater-time__name">Saturday - Sunday</p>
+                          <p class="cater-time__time">08:00 AM - 10:00 PM</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <ul class="cater-cont">
+                      <li class="cater-cont__item">
+                        <a
+                          href="tel:+610383766284"
+                          class="cater-cont__link cater-cont__link__tel"
+                          >+61&#40;0&#41; 383 766 284</a
+                        >
+                      </li>
+                      <li class="cater-cont__item">
+                        <a
+                          href="mailto:noreply@envato.com"
+                          class="cater-cont__link cater-cont__link__mail"
+                          >noreply@envato.com</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="cater-btn">
+              <button
+                type="button"
+                class="btn-cont cater-btn__locat"
+                data-modal-map-open
+              >
+                Our Locations
+                <svg class="cater-btn__icons" width="8" height="16">
+                  <use href="./images/symbol-defs.svg#smartphone"></use>
+                </svg>
+              </button>
+              <button type="button" class="btn-cont cater-btn__franch">
+                Franchise
+                <svg class="cater-btn__icons" width="8" height="16">
+                  <use href="./images/symbol-defs.svg#smartphone"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container container--flex">
+        <div class="container__item container-logoadd">
+          <a href="./index.html" class="logo" lang="en"
+            >Web<span class="logo__light">Studio</span>
+          </a>
+          <address class="container-address">
+            <ul class="footer-address list">
+              <li class="footer-address__item">
+                <a
+                  href="https://goo.gl/maps/Y3qcfdr68zk5Risw8"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  class="footer-link footer-link--address"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="footer-address__item">
+                <a
+                  href="mailto:info@example.com"
+                  class="footer-link footer-link--mail"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="footer-address__item">
+                <a href="tel:+380991111111" class="footer-link footer-link--tel"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="container__item container-links">
+          <p class="footer-cont-text">Присоединяйтесь</p>
+
+          <ul class="footer-icon list">
+            <li class="footer-icon__item">
+              <a href="" class="footer-icon-link">
+                <svg class="footer-icon-icon" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-icon__item">
+              <a href="" class="footer-icon-link">
+                <svg class="footer-icon-icon" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-icon__item">
+              <a href="" class="footer-icon-link">
+                <svg class="footer-icon-icon" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-icon__item">
+              <a href="" class="footer-icon-link">
+                <svg class="footer-icon-icon" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="container__item container-email">
+          <p class="footer-cont-text">Подпишитесь на рассылку</p>
+          <form class="form-input">
+            <label for="item-mail"></label>
+            <input
+              type="email"
+              class="form-input__item"
+              name="item-mail"
+              id="item-mail"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="btn form-input__btn">
+              Подписаться
+              <svg class="icon-send" width="24" height="24">
+                <use href="./images/symbol-defs.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/menu.js"></script>
+  </body>
+</html>
