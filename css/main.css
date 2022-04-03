@@ -1463,6 +1463,32 @@ ul {
   }
 }
 
+.cater-card__pic {
+  position: relative;
+}
+
+.cater-card__pic:hover .cater-card_img,
+.cater-card__pic:focus .cater-card_img {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.cater-placepic {
+  max-width: 100%;
+  display: block;
+}
+
+.cater-card_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
 .cater-place {
   padding-bottom: 24px;
   border-bottom: 1px solid #E1E1E1;
@@ -1624,12 +1650,12 @@ a {
 }
 
 .cater-cont__link__mail, .cater-cont__link__tel {
-  color: var(--secondary-text-color);
+  color: #907E82;
   transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .cater-cont__link:hover, .cater-cont__link:focus {
-  color: var(--accent-text-color);
+  color: #D41342;
 }
 
 .cater-btn {
