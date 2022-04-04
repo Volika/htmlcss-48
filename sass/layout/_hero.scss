@@ -81,6 +81,9 @@
     @include font(900, 44px, 60px, 0.06em);
   }
 }
+.btn__hero {
+  @include indents(10px, 32px, auto, auto);
+}
   .btn__heder {
     @include indents(0, 0, auto, 0px);
     @include btn-form(159px, 44px, 22px);

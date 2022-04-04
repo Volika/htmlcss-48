@@ -569,6 +569,12 @@ ul {
   }
 }
 
+.btn__hero {
+  padding: 10px 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .btn__heder {
   padding: 0 0;
   margin-left: auto;
