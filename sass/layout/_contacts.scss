@@ -225,7 +225,10 @@ a {
     }
 
     @include media ($desk) {
-        @include font(500, 16px, 29px, null);
+        // @include font(500, 16px, 30px, null);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: calc(30px / 16px);
         // width: 243px;
         // height: 50px;
     }
