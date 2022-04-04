@@ -1688,6 +1688,16 @@ a {
   }
 }
 
+.cater-btn__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .cater-btn__item:not(:last-child) {
+    margin-bottom: 0px;
+  }
+}
+
 .cater-btn__locat {
   background-color: #D41342;
   color: #FFFFFF;
@@ -1697,7 +1707,6 @@ a {
   width: 162px;
   height: 44px;
   border-radius: 22px;
-  margin-bottom: 10px;
 }
 
 .cater-btn__locat:hover, .cater-btn__locat:focus {

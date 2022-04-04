@@ -247,10 +247,9 @@ a {
 
 .cater-btn {
     border-radius: 22px;
-
     width: 162px;
     @include indents(0, 0, auto, auto);
-
+    
     @include media ($tab) {
         width: 380px;
         display: flex;
@@ -258,11 +257,20 @@ a {
         align-items: center;
         justify-content: space-between;
     }
-
     @include media ($desk) {
         width: 393px;
     }
+&__item:not(:last-child) {
+    margin-bottom: 10px;
 
+    @include media ($tab) {
+        margin-bottom: 0px;
+    }
+
+    // @include media ($desk) {
+    //     margin-bottom: 0px;
+    // }
+}
     &__locat {
         @include btn-color(#FFFFFF, #D41342, #D41342);
         @include font(700, 16px, 21px, null);
@@ -275,8 +283,6 @@ a {
         @include media ($desk) {
             @include btn-form(198px, 44px, 22px);
         }
-
-        margin-bottom: 10px;
     }
 
     &__franch {
@@ -293,8 +299,8 @@ a {
         }
     }
 }
-
 .cater-btn__icons {
     margin-left: 13px;
     fill: currentColor;
+    
 }
