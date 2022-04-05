@@ -1705,7 +1705,7 @@ a {
 
 .cater-btn__locat {
   background-color: #D41342;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
   font-size: 16px;
   line-height: calc($lh / $fs);
@@ -1767,7 +1767,7 @@ a {
 
 .cater-btn__icons {
   margin-left: 13px;
-  fill: #34c26f;
+  fill: currentColor;
 }
 
 .backdrop {

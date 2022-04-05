@@ -276,7 +276,7 @@ a {
     // }
 }
     &__locat {
-        @include btn-color(#FFFFFF, #D41342, #D41342);
+        @include btn-color(#ffffff, #D41342, #D41342);
         @include font(700, 16px, 21px, null);
         @include btn-form(162px, 44px, 22px);
 
@@ -305,7 +305,7 @@ a {
 }
 .cater-btn__icons {
     margin-left: 13px;
-    // fill: currentColor;
-    fill:#34c26f;
+    fill: currentColor;
+    
     
 }
