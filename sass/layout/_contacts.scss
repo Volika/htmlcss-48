@@ -1,3 +1,7 @@
+use path {
+    fill: inherit;
+    stroke: inherit;
+}
 .section-contacts {
     padding-top: 40px;
     padding-bottom: 48px;
@@ -287,9 +291,9 @@ a {
 
     &__franch {
         @include font(700, 16px, 21px, null);
-        @include btn-color(#D41443, #FFFFFF, #ECEBEB);
+        @include btn-color(#D41342, #FFFFFF, #ECEBEB);
         @include btn-form(162px, 44px, 22px);
-
+        
         @include media ($tab) {
             @include btn-form(174px, 44px, 22px);
         }
@@ -301,6 +305,7 @@ a {
 }
 .cater-btn__icons {
     margin-left: 13px;
-    fill: currentColor;
+    // fill: currentColor;
+    fill:#34c26f;
     
 }

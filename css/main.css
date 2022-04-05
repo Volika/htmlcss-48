@@ -1331,6 +1331,11 @@ ul {
   color: var(--prim-text-color);
 }
 
+use path {
+  fill: inherit;
+  stroke: inherit;
+}
+
 .section-contacts {
   padding-top: 40px;
   padding-bottom: 48px;
@@ -1734,7 +1739,7 @@ a {
   font-size: 16px;
   line-height: calc($lh / $fs);
   background-color: #FFFFFF;
-  color: #D41443;
+  color: #D41342;
   width: 162px;
   height: 44px;
   border-radius: 22px;
@@ -1762,7 +1767,7 @@ a {
 
 .cater-btn__icons {
   margin-left: 13px;
-  fill: currentColor;
+  fill: #34c26f;
 }
 
 .backdrop {
